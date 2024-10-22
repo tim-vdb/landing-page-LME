@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Futura Book;
+    src: url(FuturaBT-Book.otf);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/image_fond_montagne.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 25px;
+}
+
+body p {
+margin: 0;
+}
+
+main .logo {
+    background-image: url("images/logo_png.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 500px;
+    height: 130px;
+}
+
+main {
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0px;
+    border: 3px dashed #EB9AA8;
+}
+
+div.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 25px 0px;
+}
+
+div.link div {
+    width: 50%;
+}
+
+.link a.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50%;
+    box-shadow: 10px 10px 1em #4A5664;
+    font-family: Futura Book;
+    border: 3px dashed #4A5664 !important;
+}
+
+div.cadre {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+ion-icon {
+    min-width: 2rem;
+    margin-right: 20px;
+}
+
+#insta {
+    background-color: #B8DA9A;
+    color: #4A5664;
+}
+
+#tiktok {
+    background-color: #FBF56A;
+    color: #4A5664;
+}
+
+#facebook {
+    background-color: #99D4E0;
+    color: #4A5664;
+}
+
+#site {
+    background-color: #EB9AA8;
+    color: #4A5664;
+}
+
+#faq {
+    background-color: #B8DA9A;
+    color: #4A5664;
+}
+
+@media (max-width: 789px) {
+    main .logo {
+        width: 75svw;
+    }
+
+    main {
+        width: 90svw;
+    }
+
+    .link a.btn {
+        width: 85%;
+    }
+
+    ion-icon {
+        margin-right: 10px;
+    }
+}
